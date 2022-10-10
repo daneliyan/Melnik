@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Главная</title>
+
+	<!-- favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon.svg">
+<link rel="shortcut icon" href="img/favicon/favicon.svg" type="image/x-icon">
+<link rel="icon" href="img/favicon/favicon.svg" type="image/x-icon">
+<meta name="msapplication-tilecolor" content="#fff">
+<meta name="msapplication-tileimage" content="img/favicon/favicon.svg">
+<meta name="theme-color" content="#59A610">
+
+<!-- CSS -->
+<link href="css/fancybox.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<link href="css/style.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- header -->
+<header class="header">
+	<div class="container header__container">
+		<a href="index.html" class="logo">
+			<img src="img/logo.png" alt="Логотип Мельничного Комлекса Сакмарский">
+		</a>
+
+		<div class="header-center">
+			<div class="header__info">
+				<div class="header__info-group">
+					<div class="header__info-item">
+						<img src="img/phone.svg" class="phone-img" alt="">
+						<a href="tel:+73532921719" class="phone">+7 (3532) 92-17-19</a>
+					</div>
+					<div class="header__info-item">
+						<img src="img/time.svg" alt="">
+						<span class="time">Пн-Пт с 9:00 до 18:00</span>
+					</div>
+
+				</div>
+				<div class="header__info-group">
+					<div class="header__info-item">
+						<a href="tel:+79328650395" class="phone">+7 (932) 865-03-95</a>
+					</div>
+					<div class="header__info-item">
+						<a href="#" class="callback">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="catalog.html" class="nav__link">Продукция</a></li>
+					<li class="nav__item"><a href="magaziny.html" class="nav__link">Магазины</a></li>
+					<li class="nav__item"><a href="sertifikaty.html" class="nav__link">Сертификаты</a></li>
+					<li class="nav__item"><a href="dostavka.html" class="nav__link">Доставка и оплата</a></li>
+					<li class="nav__item"><a href="about.html" class="nav__link">О компании</a></li>
+					<li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<a href="cart.html" class="cart">
+			<div class="cart__icon">
+				<span class="number">5</span>
+				<img src="img/cart.svg" alt="Корзина">
+			</div>
+			<span class="amount">25 000 ₽</span>
+		</a>
+	</div>
+</header>
+		<header class="header-mob">
+  <div class="container">
+    <div class="header-mob__container">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Логотип Мельничного Комлекса Сакмарский">
+      </a>
+      <a href="cart.html" class="cart">
+        <div class="cart__icon">
+          <span class="number">5</span>
+          <img src="img/cart.svg" class="cart-img" alt="Корзина">
+        </div>
+        <span class="amount">25 000 ₽</span>
+      </a>
+      <div id="nav-menu" class="nav__menu">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__item"><a href="catalog.html" class="nav-menu__link">Продукция</a></li>
+          <li class="nav-menu__item"><a href="magaziny.html" class="nav-menu__link">Магазины</a></li>
+          <li class="nav-menu__item"><a href="sertifikaty.html" class="nav-menu__link">Сертификаты</a></li>
+          <li class="nav-menu__item"><a href="dostavka.html" class="nav-menu__link">Доставка и оплата</a></li>
+          <li class="nav-menu__item"><a href="about.html" class="nav-menu__link">О компании</a></li>
+          <li class="nav-menu__item"><a href="contacts.html" class="nav-menu__link">Контакты</a></li>
+          <li class="nav-menu__item">
+            <a href="tel:+73532921719" class="phone">+7 (3532) 92-17-19</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="tel:+79328650395" class="phone">+7 (932) 865-03-95</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="callback">Заказать звонок</a>
+          </li>
+          <li class="nav-menu__item">
+            <span class="time">Пн-Пт с 9:00 до 18:00</span>
+          </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <img src="./img/close.svg" alt="Закрыть меню">
+        </div>
+      </div>
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+        <img src="./img/menu.svg" alt="Открыть меню">
+      </div>
+    </div>
+  </div>
+</header>
+
+		<main class="page-home">
+
+			<section class="hero">
+  <!-- Swiper -->
+  <div class="swiper hero__slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide hero__slide" style="background-image: url('../img/hero-slider-bg.jpg');">
+        <div class="container hero__container">
+          <div class="content">
+            <h2 class="hero__title">Мука <br>высшего сорта</h2>
+            <div class="hero__advantages">
+              <div class="hero__advantages-item">
+                <img src="img/check.png" alt="">
+                от производителя в Оренбурге
+              </div>
+              <div class="hero__advantages-item">
+                <img src="img/check.png" alt="">
+                оптовые продажи
+              </div>
+            </div>
+            <button class="btn__to-catalog"><img src="img/to-catalog.svg">Перейти в каталог</button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide hero__slide" style="background-image: url('../img/hero-slider-bg.jpg');">
+        <div class="container hero__container">
+          <div class="content">
+            <h2 class="hero__title">Мука <br>высшего сорта</h2>
+            <div class="hero__advantages">
+              <div class="hero__advantages-item">
+                <img src="img/check.png" alt="">
+                от производителя в Оренбурге
+              </div>
+              <div class="hero__advantages-item">
+                <img src="img/check.png" alt="">
+                оптовые продажи
+              </div>
+            </div>
+            <button class="btn__to-catalog"><img src="img/to-catalog.svg">Перейти в каталог</button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide hero__slide" style="background-image: url('../img/hero-slider-bg.jpg');">
+        <div class="container hero__container">
+          <div class="content">
+            <h2 class="hero__title">Мука <br>высшего сорта</h2>
+            <div class="hero__advantages">
+              <div class="hero__advantages-item">
+                <img src="img/check.png" alt="">
+                от производителя в Оренбурге
+              </div>
+              <div class="hero__advantages-item">
+                <img src="img/check.png" alt="">
+                оптовые продажи
+              </div>
+            </div>
+            <button class="btn__to-catalog"><img src="img/to-catalog.svg">Перейти в каталог</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__nav">
+      <div class="hero-button-prev">
+        <svg width="60" height="20" viewBox="0 0 60 20" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_26_23)">
+              <path
+                d="M9.36652 10.1149C13.4389 9.14942 77.3756 4.73564 55.3846 11.8161C41.7195 11.3563 26.6968 12 13.1222 13.8851C21.9005 16.2299 34.1176 19.7241 28.5068 20C24.2534 20.1839 -0.58823 15.3103 0.0452548 13.1954C0.950232 9.28735 29.8643 -4.36782 24.2534 1.47126C19.7738 6.06896 15.4299 6.89655 9.36652 10.1149Z"
+                />
+            </g>
+            <defs>
+              <clipPath id="clip0_26_23">
+                <rect width="60" height="20" transform="translate(60 20) rotate(-180)" />
+              </clipPath>
+            </defs>
+        </svg>
+      </div>
+      <div class="hero-button-next">
+        <svg width="60" height="20" viewBox="0 0 60 20" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_26_21)">
+            <path
+              d="M50.6335 9.88506C46.5611 10.8506 -17.3756 15.2644 4.61539 8.18391C18.2805 8.64368 33.3032 8 46.8778 6.11494C38.0995 3.77012 25.8824 0.275864 31.4932 1.5682e-06C35.7466 -0.183906 60.5882 4.68966 59.9547 6.8046C59.0498 10.7126 30.1357 24.3678 35.7466 18.5287C40.2262 13.931 44.5701 13.1034 50.6335 9.88506Z" />
+          </g>
+          <defs>
+            <clipPath id="clip0_26_21">
+              <rect width="60" height="20" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+			<section class="advantages">
+  <div class="container">
+    <div class="advantages__cards">
+      <div class="advantages__card">
+        <img src="img/advantages/advantages-01.png" alt="">
+        <h3>Без посредников и&nbsp;наценок</h3>
+        <p>Сотрудничая с нами вы получаете возможность приобрести муку и отруби по ценам от производителя</p>
+      </div>
+      <div class="advantages__card">
+        <img src="img/advantages/advantages-02.png" alt="">
+        <h3>Любые объёмы продукции</h3>
+        <p>Благодаря стабильности собственного производства мы можем отгружать продукцию в&nbsp;любых объёмах</p>
+      </div>
+      <div class="advantages__card">
+        <img src="img/advantages/advantages-03.png" alt="">
+        <h3>Удобная доставка</h3>
+        <p>Проводим отгрузку продукции на автомобильный и железнодорожный транспорт</p>
+      </div>
+      <div class="advantages__card">
+        <img src="img/advantages/advantages-04.png" alt="">
+        <h3>Корректировка показателей</h3>
+        <p>Мы можем скорректировать показатели муки под специфику производства конкретного покупателя</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+			<section class="catalog-bl">
+  <div class="container">
+    <h2 class="page-title"><span>Продукция нашего производства</span></h2>
+    <div class="products__cards">
+            <div class="products__card">
+              <div class="products__card-img">
+                <img src="img/products/products-01.png" alt="Фотография продукта">
+              </div>
+              <div class="products__card-info">
+                <h3 class="products__card-name">Мука высший сорт 2 кг.</h3>
+                <div class="products__card-price">
+                  100 ₽
+                </div>
+                <button class="btn__to-cart"><img src="img/btn-to-cart.svg"> В корзину</button>
+              </div>
+            </div>
+            <div class="products__card">
+              <div class="products__card-sale">
+                10%
+              </div>
+              <div class="products__card-img">
+                <img src="img/products/products-01.png" alt="Фотография продукта">
+              </div>
+              <div class="products__card-info">
+                <h3 class="products__card-name">Мука высший сорт 2 кг.</h3>
+                <div class="products__card-price">
+                  100 ₽<span class="old">500 ₽</span>
+                </div>
+                <button class="btn__to-cart"><img src="img/btn-to-cart.svg"> В корзину</button>
+              </div>
+            </div>
+            <div class="products__card">
+              <div class="products__card-img">
+                <img src="img/products/products-01.png" alt="Фотография продукта">
+              </div>
+              <div class="products__card-info">
+                <h3 class="products__card-name">Мука высший сорт 2 кг.</h3>
+                <div class="products__card-price">
+                  100 ₽
+                </div>
+                <button class="btn__to-cart"><img src="img/btn-to-cart.svg"> В корзину</button>
+              </div>
+            </div>
+            <div class="products__card">
+              <div class="products__card-sale">
+                10%
+              </div>
+              <div class="products__card-img">
+                <img src="img/products/products-01.png" alt="Фотография продукта">
+              </div>
+              <div class="products__card-info">
+                <h3 class="products__card-name">Мука высший сорт 2 кг.</h3>
+                <div class="products__card-price">
+                  100 ₽<span class="old">500 ₽</span>
+                </div>
+                <button class="btn__to-cart"><img src="img/btn-to-cart.svg"> В корзину</button>
+              </div>
+            </div>
+    </div>
+    <div class="catalog-bl__link-wrapper">
+      <a href="#" class="catalog-bl__link">Перейти в каталог</a>
+    </div>
+  </div>
+</section>
+
+			<section class="about-bl">
+  <div class="container">
+    <div class="about-bl__wrapper">
+      <div class="about-bl__img">
+        <img src="img/about-bl-img.jpg" alt="Фотография с производства">
+      </div>
+      <div class="content">
+        <h2>ООО “Мельник” - крупнейший производитель мукомольной продукции в Оренбургской области</h2>
+        <h3>Занимаемся производством с&nbsp;1999&nbsp;года</h3>
+        <button class="about-comp">Подробнее о компании</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+			<section class="faq">
+  <div class="container">
+    <h2 class="page-title"><span>Частые вопросы</span></h2>
+    <div class="faq__accordion">
+      <div class="faq__accordion-item">
+        <div class="faq__accordion-header">
+          <div class="faq__accordion-icon"></div>
+          <div class="faq__accordion-title">
+            <h3>В какие регионы ваша компания осуществляет доставку продукции?</h3>
+          </div>
+        </div>
+        <div class="faq__accordion-content">
+          <p class="faq__accordion-description">
+            Мельничный комплекс Сакмарский осуществляет деятельность по производству пшеничной муки с 1999 года. Комплекс
+            оснащен уникальным современным оборудованием. Имеет в своем составе аттестованную производственно -
+            технологическую лабораторию, в которой производится полный спектр анализов и работ по определению количественно
+            качественных показателей зерна и производимой муки. За время работы наша продукция завоевала высокий рейтинг доверия
+            у населения и по достоинству была оценена нашими партнерами - производителями хлебобулочных и кондитерских изделий.
+            Получаемые дипломы победителя конкурсов «Наша марка» и «Золотая осень» достойное признание заслуг мельничного
+            комплекса в производстве высококачественной муки.
+          </p>
+        </div>
+      </div>
+      <div class="faq__accordion-item">
+        <div class="faq__accordion-header">
+          <div class="faq__accordion-icon"></div>
+          <div class="faq__accordion-title">
+            <h3>Возможно ли получить отсрочку оплаты?</h3>
+          </div>
+        </div>
+        <div class="faq__accordion-content">
+          <p class="faq__accordion-description">
+            Мельничный комплекс Сакмарский осуществляет деятельность по производству пшеничной муки с 1999 года. Комплекс
+            оснащен уникальным современным оборудованием. Имеет в своем составе аттестованную производственно -
+            технологическую лабораторию, в которой производится полный спектр анализов и работ по определению количественно
+            качественных показателей зерна и производимой муки. За время работы наша продукция завоевала высокий рейтинг доверия
+            у населения и по достоинству была оценена нашими партнерами - производителями хлебобулочных и кондитерских изделий.
+            Получаемые дипломы победителя конкурсов «Наша марка» и «Золотая осень» достойное признание заслуг мельничного
+            комплекса в производстве высококачественной муки.
+          </p>
+        </div>
+      </div>
+      <div class="faq__accordion-item">
+        <div class="faq__accordion-header">
+          <div class="faq__accordion-icon"></div>
+          <div class="faq__accordion-title">
+            <h3>Можно ли получить скидку при оптовом заказе продукции?</h3>
+          </div>
+        </div>
+        <div class="faq__accordion-content">
+          <p class="faq__accordion-description">
+            Мельничный комплекс Сакмарский осуществляет деятельность по производству пшеничной муки с 1999 года. Комплекс
+            оснащен уникальным современным оборудованием. Имеет в своем составе аттестованную производственно -
+            технологическую лабораторию, в которой производится полный спектр анализов и работ по определению количественно
+            качественных показателей зерна и производимой муки. За время работы наша продукция завоевала высокий рейтинг доверия
+            у населения и по достоинству была оценена нашими партнерами - производителями хлебобулочных и кондитерских изделий.
+            Получаемые дипломы победителя конкурсов «Наша марка» и «Золотая осень» достойное признание заслуг мельничного
+            комплекса в производстве высококачественной муки.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+		</main>
+
+		<!--------Footer--------->
+<footer class="footer">
+  <div class="footer__top">
+    <div class="container footer__top-container">
+      <div class="footer__logo">
+        <img src="img/footer/footer-logo.png" alt="">
+      </div>
+      <div class="footer__info">
+        <div class="footer__info-group">
+          <img src="img/footer/phone.svg" alt="">
+          <div class="footer__info-text">
+            <a href="tel:+73532921719" class="phone">+7 (3532) 92-17-19</a>
+            <a href="tel:+79328650395" class="phone">+7 (932) 865-03-95</a>
+            <a href="#" class="callback">Заказать звонок</a>
+          </div>
+        </div>
+        <div class="footer__info-group footer__info-group--time">
+          <img src="img/footer/time.svg" alt="">
+          <div class="footer__info-text">
+            <span class="time">Пн-Пт с 9:00 до 18:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__menu">
+        <div class="footer__menu-group">
+          <a href="catalog.html" class="footer__menu-link">Каталог продукции</a>
+          <a href="magaziny.html" class="footer__menu-link">Розничные магазины</a>
+          <a href="sertifikaty.html" class="footer__menu-link">Сертификаты продукции</a>
+          <a href="dostavka.html" class="footer__menu-link">Доставка и оплата</a>
+        </div>
+        <div class="footer__menu-group">
+          <a href="about.html" class="footer__menu-link">О компании</a>
+          <a href="contacts.html" class="footer__menu-link">Контакты</a>
+          <a href="sertifikaty.html" class="footer__menu-link">Политика обработки персональных данных</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-container">
+      <div class="footer__bottom-group">
+        © 2022 ООО «Мельник».<br>
+        Все права защищены.
+      </div>
+      <div class="footer__bottom-group">
+        Сайт разработан<br>
+        при поддержке
+        <img src="img/footer/1.png" alt="">
+      </div>
+      <div class="footer__bottom-group">
+        Разработка сайта
+        <img src="img/footer/2.png" alt="">
+      </div>
+    </div>
+  </div>
+</footer>
+
+	</div>
+
+	<!-- Script-->
+<link href="css/fancybox.css" rel="stylesheet">
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
